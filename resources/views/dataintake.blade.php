@@ -1,6 +1,7 @@
 @extends('base')
 
 @section('content')
+<div style="width:90%; margin:3% auto;">
 <form action="{{ route('dataintakeroute') }}" method="POST">
   <div class="form-row">
     <div class="form-group col-md-6">
@@ -47,4 +48,5 @@
   @csrf
   <button type="submit" class="btn btn-primary">रेकर्ड गर्नुस </button>
 </form>
+</div>
 @endsection

@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function(){
     return view('welcome');
-});
+})->name('homepage');
 
 Route::get('/dataintake', function(){
     return view('dataintake');
@@ -23,6 +23,12 @@ Route::post('/dataintake','IntakeController@intake');
 
 Route::get('/dataview','ShowController@show')->name('dataviewroute');
 
-// Route::get('/dataview', function(){
-//     return view('dataview');
-// })->name('dataviewroute');
+Route::post('/dataview', 'ShowController@matchquery')->name('searchroute');
+
+Route::get('/test','DataGraphController@graph')->name('graphroute');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/profile/{id}','ProfileController@profileshow')->name('profile');
