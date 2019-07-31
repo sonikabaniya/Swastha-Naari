@@ -4,7 +4,8 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 class LoginController extends Controller
 {
     /*
@@ -21,11 +22,22 @@ class LoginController extends Controller
     use AuthenticatesUsers;
 
     /**
-     * Where to redirect users after login.
-     *
-     * @var string
+     * Where to redirect user after login
      */
-    protected $redirectTo = '/home';
+    
+    protected function redirectTo()
+    {
+        Session::put('userid', Auth::user()->id);
+        if(Auth::user()->role == 1){
+            return '/superAdmin';
+        }
+        elseif(Auth::user()->role == 2){
+            return '/dataview';
+        }
+        else{
+            return '/role3';
+        }
+    }
 
     /**
      * Create a new controller instance.
@@ -35,5 +47,6 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+        // dd(Auth::user());
     }
 }

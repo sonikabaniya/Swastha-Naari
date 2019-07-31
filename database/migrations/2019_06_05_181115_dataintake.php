@@ -13,18 +13,20 @@ class Dataintake extends Migration
      */
     public function up()
     {
-        Schema::create('Dataintake', function (Blueprint $table) {
+        Schema::create('personal_data', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('firstname');
-            $table->string('lastname');
-            $table->string('guardianname');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('health_center')->nullable();
+            $table->string('guardian_name');
             $table->string('weight');
             $table->string('bp');
             $table->string('menopause');
             $table->string('history');
-            $table->string('noofchildren');
-            $table->string('otherillness');
-            $table->string('protectionuse');
+            $table->string('no_of_children');
+            $table->string('other_illness');
+            $table->string('protection_used');
+            $table->string('taken_by');
         });
     }
 
