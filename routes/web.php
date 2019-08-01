@@ -25,10 +25,14 @@ Route::get('/dataview','ShowController@show')->name('dataviewroute');
 
 Route::post('/dataview', 'ShowController@matchquery')->name('searchroute');
 
-Route::get('/test','DataGraphController@graph')->name('graphroute');
+Route::get('/graph','DataGraphController@graph')->name('graphroute');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/profile/{id}','ProfileController@profileshow')->name('profile');
+
+Route::get('/aboutus', function(){
+    return view('aboutus');
+});

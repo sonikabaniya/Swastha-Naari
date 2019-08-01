@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layouts.app')
 
 @section('content')
 <div style="width:90%; margin:3% auto;">

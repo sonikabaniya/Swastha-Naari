@@ -1,11 +1,11 @@
-@extends('base')
+@extends('layouts.app')
 
 @section('content')
 
-<div style="margin:10%">
+<div style="margin:5%">
 
-<h3>Welcome, {{  $datas->firstname ." ". $datas->lastname }}</h3>
 <div>
+<h3>Welcome, {{  $datas->firstname ." ". $datas->lastname }}</h3>
     <img src = "{{ asset("img/1.jpg") }}" alt=" " width="42" height="42">
 </div>
 

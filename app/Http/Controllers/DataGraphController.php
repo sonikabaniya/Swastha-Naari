@@ -14,6 +14,6 @@ class DataGraphController extends Controller
         });
         $datas = json_encode($datas);
         
-        return view('test', compact('datas'));
+        return view('graph', compact('datas'));
     }
 }

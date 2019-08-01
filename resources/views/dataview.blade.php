@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layouts.app')
 
 @section('content')
 <div style="width:90%; margin:3% auto;">
@@ -10,7 +10,7 @@
             <div class="input-group-append">
             <button type="submit" class="btn btn-outline-secondary">Search</button> 
             </div>
-          <button type="" >Import</button>
+        <a class="btn btn-outline-primary" href="{{  url('/graph')   }}" role="button">Graphical View</a>
 
         </div>
       @csrf

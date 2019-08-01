@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layouts.app')
 
 @section('headContent')
 
@@ -48,7 +48,7 @@
         return {
             type: 'line',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July','August'],
                 datasets: [{
                     label: 'Menopause',
                     data: {{ $datas }},
