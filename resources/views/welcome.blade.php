@@ -323,8 +323,10 @@
         </div>
       </div>
     </div>  
+
+    {{-- For testimonial information  --}}
     
-    <div class="site-section border-bottom">
+    {{-- <div class="site-section border-bottom">
       <div class="container">
 
         <div class="row justify-content-center mb-5">
@@ -385,7 +387,7 @@
 
         </div>
       </div>
-    </div>
+    </div> --}}
 
    
 
@@ -452,19 +454,19 @@
             
             <div class="p-4 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p class="mb-4">Vanasthali, Balaju 16, Kathmandu Metropolitan City</p>
 
               <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+              <p class="mb-4"><a href="#">+977 9840259168</a></p>
 
               <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+              <p class="mb-0"><a href="#">info@swasthanari.com</a></p>
 
             </div>
             
             <div class="p-4 mb-3 bg-white">
               <h3 class="h5 text-black mb-3">More Info</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ad iure porro mollitia architecto hic consequuntur. Distinctio nisi perferendis dolore, ipsa consectetur? Fugiat quaerat eos qui, libero neque sed nulla.</p>
+              <p>We are undergraduate students trying to create impact in society through our knowledge in IT</p>
               <p><a href="#" class="btn btn-primary px-4 py-2 text-white">Learn More</a></p>
             </div>
 
@@ -481,7 +483,7 @@
             <div class="row">
               <div class="col-md-5 mr-auto">
                 <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iure deserunt ut architecto dolores quo beatae laborum aliquam ipsam rem impedit obcaecati ea consequatur.</p>
+                <p>Sujata Baskota changemaking project 2019 was awarded to 4 groups. Swastha Naari was one of the recepient of such prestigious award. In this project launch, we 4 and with help of our few friends launch this project in jhyamire village of Bastipur</p>
               </div>
               
               <div class="col-md-3">
@@ -518,7 +520,7 @@
           <div class="col-md-12">
             <div class="border-top pt-5">
               <p>
-              <small class="block">&copy; <script>document.write(new Date().getFullYear());</script> Logis Free Template. All Rights Reserved. <br> Designed &amp; Developed by <a href="https://free-template.co/" target="_blank">Free-Template.co</a></small> 
+              <small class="block">&copy; <script>document.write(new Date().getFullYear());</script>Swastha Naari team </small> 
               </p>
             </div>
           </div>
