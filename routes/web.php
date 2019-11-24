@@ -36,3 +36,5 @@ Route::get('/profile/{id}','ProfileController@profileshow')->name('profile');
 Route::get('/aboutus', function(){
     return view('aboutus');
 });
+
+Route::post('/',"HomeController@contact")->name('contact.team');
