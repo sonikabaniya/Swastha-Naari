@@ -1,49 +1,26 @@
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="200">
-  
-    <!-- <div class="site-wrap"> -->
-  
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
+<nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
-      
-      <header class="site-navbar py-3 js-site-navbar site-navbar-target" role="banner" id="site-navbar">
-  
-        <div class="container">
-          <div class="row align-items-center">
-            
-            <div class="col-11 col-xl-2 site-logo">
-              <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0">स्वस्थ नारी</a></h1>
-            </div>
-            <div class="col-12 col-md-10 d-none d-xl-block">
-              <nav class="site-navigation position-relative text-right" role="navigation">
-  
-                <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                  <li><a href="#section-home" class="nav-link">Home</a></li>
-                  <li class="has-children">
-                    <a href="#section-about" class="nav-link">About Us</a>
-                    <ul class="dropdown">
-                      <li><a href="#section-how-it-works" class="nav-link">How It Works</a></li>
-                      <li><a href="#section-our-team" class="nav-link">Our Team</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#section-industries" class="nav-link">Previous Works</a></li>
-                  <li><a href="#section-contact" class="nav-link">Contact</a></li>
-                  <li><a href="{{ route('login') }}" class="nav-link">Login/ Register</a></li>
-                </ul>
-              </nav>
-            </div>
-  
-  
-            <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
-  
-            </div>
-  
-          </div>
+    </button>
+    <div class="menu-logo">
+        <div class="navbar-brand">
+            <span class="navbar-logo">
+                <a href="https://swasthanaari.com">
+                     <img src="{{ asset('assets/images/swastha-nari-svg-logo.svg')}}" alt="Swastha Naari" title="" style="height: 3.8rem;">
+                </a>
+            </span>
+            <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-4" href="https://swasthanaari.com">स्वस्थ नारी</a></span>
         </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
-      </header>
+        <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="{{ route('login') }}"><span class="mbri-login mbr-iconfont mbr-iconfont-btn"></span>
+                
+                Login/Register</a></div>
+    </div>
+</nav>

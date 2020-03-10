@@ -1,71 +1,41 @@
 <!DOCTYPE html>
 <html  >
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v4.12.1, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="{{ asset('assets/images/swastha-nari-svg-logo.svg')}}" type="image/x-icon">
-  <meta name="description" content="">
-  
-  <title>Home</title>
-  <link rel="stylesheet" href="{{ asset('assets/web/assets/mobirise-icons/mobirise-icons.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/facebook-plugin/style.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap-grid.min.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap-reboot.min.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/dropdown/css/style.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/tether/tether.min.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/socicon/css/styles.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/theme/css/style.css')}}">
-  <link rel="stylesheet" href="{{ asset('assets/gallery/style.css')}}">
-  <link rel="preload" as="style" href="{{ asset('assets/mobirise/css/mbr-additional.css')}}"><link rel="stylesheet" href="{{ asset('assets/mobirise/css/mbr-additional.css')}}" type="text/css">
-  
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v4.12.1, mobirise.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="{{ asset('assets/images/swastha-nari-svg-logo.svg')}}" type="image/x-icon">
+    <meta name="description" content="">
+    
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ asset('assets/web/assets/mobirise-icons/mobirise-icons.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/facebook-plugin/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap-grid.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap-reboot.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/dropdown/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/tether/tether.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/socicon/css/styles.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/theme/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/gallery/style.css')}}">
+    <link rel="preload" as="style" href="{{ asset('assets/mobirise/css/mbr-additional.css')}}"><link rel="stylesheet" href="{{ asset('assets/mobirise/css/mbr-additional.css')}}" type="text/css">
   
   
 </head>
 <body>
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
 
-    
+    @include('includes.navbar')    
 
-    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm bg-color transparent">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="menu-logo">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="https://swasthanaari.com">
-                         <img src="{{ asset('assets/images/swastha-nari-svg-logo.svg')}}" alt="Swastha Naari" title="" style="height: 3.8rem;">
-                    </a>
-                </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-4" href="https://swasthanaari.com">स्वस्थ नारी</a></span>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-                    <a class="nav-link link text-primary display-4" href="https://swasthanaari.com"><span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>
-                        
-                        Home</a>
-                </li></ul>
-            <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-4" href="https://swasthanaari.com/login"><span class="mbri-login mbr-iconfont mbr-iconfont-btn"></span>
-                    
-                    Login/Register</a></div>
-        </div>
-    </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/q">responsive site templates</a></section><section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
+<section class="engine"><a href="#">free web maker</a></section><section class="cid-qTkA127IK8 mbr-fullscreen mbr-parallax-background" id="header2-1">
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(91, 104, 107);"></div>
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(91, 104, 107);"></div>
 
     <div class="container align-center">
         <div class="row justify-content-md-center">
@@ -73,9 +43,9 @@
                 <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">स्वस्थ नारी — हामी सबैको जिम्मेवारी</h1>
                 
                 <p class="mbr-text pb-3 mbr-fonts-style display-5">
-                    Swastha Naari is an initiative of four, then senior undergraduate, tech students to focuses on the importance of data in aspect to women’s reproductive health. Talking about our solution, Swastha Naari is an android as well as a web application that helps to collect data in health posts and hospitals in the context of Nepal which is sadly paper-based till today’s date.
+                    Swastha Naari focuses on the digitization of health data; especially in the sector of sexual and reproductive health of women. Swastha Naari is an android as well as a web application that helps to collect data in health posts, communities in Nepal which is sadly paper-based till today’s date.
                 </p>
-                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="https://swasthnaari.com/login">GET STARTED</a></div>
+                <div class="mbr-section-btn"><a class="btn btn-md btn-primary display-4" href="{{ route('login') }}">GET STARTED</a></div>
             </div>
         </div>
     </div>
@@ -93,7 +63,7 @@
     <div class="container">
         <div class="inner-container" style="width: 66%;">
             <hr class="line" style="width: 25%;">
-            <div class="section-text align-center mbr-white mbr-fonts-style display-5">Swastha Naari conducted its first project launch conduct i in the rural part of Nepal, Jyamire village on 3rd August 2019 which is situated at the Hetauda district.</div>
+            <div class="section-text align-center mbr-white mbr-fonts-style display-5">Swastha Naari conducted its first project launch in the rural part of Nepal, Jyamire village on 3rd August 2019 which is situated at the Hetauda district.</div>
             <hr class="line" style="width: 25%;">
         </div>
     </div>
@@ -128,8 +98,8 @@
         <div class="row justify-content-center">
             <div class="media-container-column col-lg-8" data-form-type="formoid">
                 <!---Formbuilder Form--->
-                <form action="https://mobirise.com/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="sBOq9CV69FfvzIWYtyx0e8KB6nbRaKo5lgnHjrH/TCZEg/aTHy0rvKHAmg1pZHPHAA1O7dDUKZaCPu9rP9aB6qYol+VV5CxpdQ45pxFXnJKHDFMNpNymtevDAZvpq30J">
-                    <div class="row">
+                <form method="POST" class="p-5 bg-white" action="{{route('contact.team')}}">
+                <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                         </div>
@@ -169,8 +139,8 @@
         <div class="media-container-row content text-white">
             <div class="col-12 col-md-3">
                 <div class="media-wrap">
-                    <a href="https://mobirise.com/">
-                        <img src="{{ asset('assets/images/swastha-nari-svg-logo.svg')}}" alt="Mobirise" title="">
+                    <a href="https://swasthanaari.com/">
+                        <img src="{{ asset('assets/images/swastha-nari-svg-logo.svg')}}" alt="Swastha Naari" title="">
                     </a>
                 </div>
             </div>
@@ -246,28 +216,53 @@
 </section>
 
 
-  <script src="{{ asset('assets/web/assets/jquery/jquery.min.js')}}"></script>
-  <script src="{{ asset('assets/popper/popper.min.js')}}"></script>
-  <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
-  <script src="https://apis.google.com/js/plusone.js"></script>
-  <script src="{{ asset('assets/facebook-plugin/facebook-script.js')}}"></script>
-  <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
-  <script src="{{ asset('assets/smoothscroll/smooth-scroll.js')}}"></script>
-  <script src="{{ asset('assets/parallax/jarallax.min.js')}}"></script>
-  <script src="{{ asset('assets/dropdown/js/nav-dropdown.js')}}"></script>
-  <script src="{{ asset('assets/dropdown/js/navbar-dropdown.js')}}"></script>
-  <script src="{{ asset('assets/touchswipe/jquery.touch-swipe.min.js')}}"></script>
-  <script src="{{ asset('assets/tether/tether.min.js')}}"></script>
-  <script src="{{ asset('assets/masonry/masonry.pkgd.min.js')}}"></script>
-  <script src="{{ asset('assets/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
-  <script src="{{ asset('assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js')}}"></script>
-  <script src="{{ asset('assets/vimeoplayer/jquery.mb.vimeo_player.js')}}"></script>
-  <script src="{{ asset('assets/theme/js/script.js')}}"></script>
-  <script src="{{ asset('assets/slidervideo/script.js')}}"></script>
-  <script src="{{ asset('assets/gallery/player.min.js')}}"></script>
-  <script src="{{ asset('assets/gallery/script.js')}}"></script>
-  <script src="{{ asset('assets/formoid/formoid.min.js')}}"></script>
-  
-  
+<script src="{{ asset('assets/web/assets/jquery/jquery.min.js')}}"></script>
+<script src="{{ asset('assets/popper/popper.min.js')}}"></script>
+<script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"></script>
+<script src="https://apis.google.com/js/plusone.js"></script>
+<script src="{{ asset('assets/facebook-plugin/facebook-script.js')}}"></script>
+<script src="{{ asset('assets/bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{ asset('assets/smoothscroll/smooth-scroll.js')}}"></script>
+<script src="{{ asset('assets/parallax/jarallax.min.js')}}"></script>
+<script src="{{ asset('assets/dropdown/js/nav-dropdown.js')}}"></script>
+<script src="{{ asset('assets/dropdown/js/navbar-dropdown.js')}}"></script>
+<script src="{{ asset('assets/touchswipe/jquery.touch-swipe.min.js')}}"></script>
+<script src="{{ asset('assets/tether/tether.min.js')}}"></script>
+<script src="{{ asset('assets/masonry/masonry.pkgd.min.js')}}"></script>
+<script src="{{ asset('assets/imagesloaded/imagesloaded.pkgd.min.js')}}"></script>
+<script src="{{ asset('assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js')}}"></script>
+<script src="{{ asset('assets/vimeoplayer/jquery.mb.vimeo_player.js')}}"></script>
+<script src="{{ asset('assets/theme/js/script.js')}}"></script>
+<script src="{{ asset('assets/slidervideo/script.js')}}"></script>
+<script src="{{ asset('assets/gallery/player.min.js')}}"></script>
+<script src="{{ asset('assets/gallery/script.js')}}"></script>
+<script src="{{ asset('assets/formoid/formoid.min.js')}}"></script>
+
+
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v6.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="103770497879445"
+        theme_color="#159dcc">
+      </div>
+      
 </body>
 </html>
